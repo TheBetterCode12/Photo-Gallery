@@ -1,5 +1,44 @@
 
 h1{
-    font-size: 200px;
+    font-size: 150px;
     
+}
+
+#abc{
+    height: 300px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: goldenrod;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.img2{
+    height: 300px;
+    width: 380px; 
+    margin: 3px;
+}
+
+html {
+    scroll-behavior: smooth;
+
 }
